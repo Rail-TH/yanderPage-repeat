@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    margin: 0;
+    background-color: #161617;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 32px;
+    margin-right: 30px;
+}
+
+main {
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.searchContainer {
+    background-color: #2f2f32;
+    width: 1030px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: 0.1s;
+}
+
+textarea {
+    resize: none;
+    font-size: 22px;
+    outline: none;
+    background-color: #2f2f32;
+    border: none;
+    caret-color: white;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.search__svg {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.search__svg_camera:hover path{
+    fill: #7a7a7c;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.search__svg_voice:hover path{
+    fill: #7a7a7c;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.ya_logo, .alice_button {
+    width: 55px;
+    transition: 0.2s;
+}
+
+.ya_logo:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.header_nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 25px;
+}
+
+.login_button {
+    color: white;
+    background-color: #242425;
+    padding: 14px 26px;
+    font-size: 20px;
+    font-weight: 700px;
+    border-radius: 15px;
+    transition: 0.2s;
+}
+
+.close_button {
+    position: absolute;
+    left: 260px;
+    top: 13px;
+    display: flex;
+    padding: 10px;
+    margin: 0;
+}
+
+.close_button:hover {
+    background-color: #38383b;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.close_button:hover path {
+    fill: #fafaff;
+}
+
+.login_button:hover {
+    background-color: #323233;
+    cursor: pointer;
+}
+
+.burger_menu_icon {
+    transition: 0.2s;
+}
+
+label {
+    height: 40px;
+    width: 40px;
+}
+
+label:hover .burger_menu_icon {
+    fill: #333333;
+    cursor: pointer;
+}
+
+.menu {
+    background-color: #222224;
+    height: 90vh;
+    width: 320px;
+    position: absolute;
+    top: 25px;
+    right: 10px;
+    border-radius: 25px;
+    padding-top: 20px;
+    overflow-y: scroll;
+    border: 1px solid #3d3d3f;
+    padding-bottom: 30px;
+    display: none;
+}
+
+.worldInfo {
+    color: #7f7f80;
+    width: 1030px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.leftInfo {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.rate:hover, .weatherInfo:hover, .city:hover {
+    cursor: pointer;
+    color: #a2a2a2;
+    transition: 0.2s;
+}
+
+.weatherInfo {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    color: white;
+}
+
+.SvgIcon, .NoLoginShieldDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.NoLoginShield {
+    width: 96px;
+    height: 96px;
+}
+
+.NoLoginShieldDiv {
+    margin-top: 15px;
+}
+
+input {
+    display: none;
+}
+
+input:checked~.menu {
+    display: block;
+}
+
+.LoginText {
+    text-align: center;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 270px;
+}
+
+.whiteLoginButton {
+    background-color: #f9f9fe;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 14px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    transition: 0.2s;
+}
+
+.whiteLoginButton:hover {
+    background-color: #ececf1;
+    cursor: pointer;
+}
+
+a {
+    color: #f9f9fe;
+    text-decoration: none;
+}
+
+.MenuPoint {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 12px 10px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+}
+
+.menuAd {
+    font-size: 16px;
+    margin-left: 30px;
+    color: #818179;
+    transition: 0.2s;
+    display: block;
+    margin-top: 22px;
+}
+
+.menuAd:hover {
+    color: #fafaff;
+}
+
+.MenuPoint:hover {
+    background-color: #38383a;
+    border-radius: 12px;
+}
+
+.buttonDesc {
+    color: #757b83;
+    font-size: 16px;
+    margin-left: 45px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.plus {
+    display: block;
+}
+
+.plusButton {
+    display: flex;
+    gap: 20px;
+}
+
+.line {
+    height: 1px;
+    background-color: #333335;
+    margin: 10px 0;
+    width: 255px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    display: flex;
+    justify-content: end;
+    margin-right: 30px;
+    margin-top: 300px;
+}
+
+.alice_button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.services {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+    gap: 70px;
+    visibility: hidden;
+}
+
+.serviceButton {
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: 0.2s;
+    font-size: 20px;
+}
+
+.serviceIcon {
+    width: 60px;
+    margin-bottom: 10px;
+    transition: 0.2s;
+}
+
+.serviceButton:hover img {
+    transform: scale(1.1);
+}
+
+.serviceButton:hover {
+    color: #a2a2a2;
+    cursor: pointer;
+}

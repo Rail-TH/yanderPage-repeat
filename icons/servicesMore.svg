@@ -1,0 +1,9 @@
+<svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g mask="url(#a)" stroke="black">
+        <rect opacity=".8" x="9.084" y="21.639" width="9.275" height="9.275" rx="3.286" stroke-width="1.5"></rect>
+        <rect opacity=".8" x="9.084" y="9.083" width="9.275" height="9.275" rx="3.286" stroke-width="1.5"></rect>
+        <rect opacity=".8" x="21.639" y="9.083" width="9.275" height="9.275" rx="3.286" stroke-width="1.5"></rect>
+        <rect opacity=".8" x="21.639" y="21.639" width="9.275" height="9.275" rx="3.286" stroke-width="1.5"></rect>
+        <path d="M39.48 20c0 8.006-1.013 12.8-3.847 15.633C32.8 38.467 28.006 39.48 20 39.48S7.2 38.467 4.367 35.633C1.533 32.8.52 28.006.52 20S1.533 7.2 4.367 4.367C7.2 1.533 11.994.52 20 .52s12.8 1.012 15.633 3.846C38.467 7.2 39.48 11.994 39.48 20z" stroke-opacity=".18" stroke-width="1.042"></path>
+    </g>
+</svg>
